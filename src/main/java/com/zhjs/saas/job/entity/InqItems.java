@@ -1,4 +1,4 @@
-package com.yuanhan.job.entity;
+package com.zhjs.saas.job.entity;
 
 import java.math.BigDecimal;
 
@@ -8,8 +8,8 @@ import javax.persistence.Id;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import com.yuanhan.yuanhan.core.dao.generator.GenerationType;
-import com.yuanhan.yuanhan.core.pojo.BaseObject;
+import com.zhjs.saas.core.dao.generator.GenerationType;
+import com.zhjs.saas.core.pojo.BaseObject;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -22,7 +22,7 @@ public class InqItems extends BaseObject
     private static final long serialVersionUID = 5428235769029934121L;
     @Id
 	@GeneratedValue(generator=GenerationType.SnowFlake)
-	@GenericGenerator(name=GenerationType.SnowFlake, strategy="com.yuanhan.yuanhan.core.dao.generator.IdGenerator")
+	@GenericGenerator(name=GenerationType.SnowFlake, strategy="com.zhjs.saas.core.dao.generator.IdGenerator")
     private Long itemId;
 
     private Long inquiryId;

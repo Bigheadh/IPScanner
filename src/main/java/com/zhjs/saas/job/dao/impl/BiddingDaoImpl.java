@@ -1,18 +1,18 @@
-package com.yuanhan.job.dao.impl;
+package com.zhjs.saas.job.dao.impl;
 
-import com.yuanhan.job.dao.InquiryDao;
-import com.yuanhan.yuanhan.core.annotation.DaoComponent;
-import com.yuanhan.yuanhan.core.dao.AbstractDao;
-import com.yuanhan.job.constants.InquiryStatus;
-import com.yuanhan.job.constants.QuotationStatus;
-import com.yuanhan.job.dao.BiddingDao;
+import com.zhjs.saas.core.annotation.DaoComponent;
+import com.zhjs.saas.core.dao.AbstractDao;
+import com.zhjs.saas.job.constants.InquiryStatus;
+import com.zhjs.saas.job.constants.QuotationStatus;
+import com.zhjs.saas.job.dao.BiddingDao;
+import com.zhjs.saas.job.dao.InquiryDao;
 
 import java.util.List;
 import java.util.Map;
 
 /**
  * 
- * @author:		yuanhan
+ * @author:		Jackie Wang 
  * @since:		2018-06-14
  * @modified:	2018-06-14
  * @version:	

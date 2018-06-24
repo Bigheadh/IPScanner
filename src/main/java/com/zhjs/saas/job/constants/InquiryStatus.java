@@ -1,4 +1,4 @@
-package com.yuanhan.job.constants;
+package com.zhjs.saas.job.constants;
 
 public abstract class InquiryStatus {
     /**

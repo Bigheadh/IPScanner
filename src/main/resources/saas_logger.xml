@@ -8,7 +8,7 @@
 <!-- http://www.qos.ch/shop/products/professionalSupport -->
 <!-- -->
 <configuration debug="true">
-	<property name="LOG_HOME" value="${logging.path:-/app/logs/yuanhan-bidding}" />
+	<property name="LOG_HOME" value="${logging.path:-/app/logs/saas-bidding}" />
 
 	<conversionRule conversionWord="clr"
 		converterClass="org.springframework.boot.logging.logback.ColorConverter" />
@@ -42,7 +42,7 @@
 		</rollingPolicy>
 	</appender>
 
-	<appender name="yuanhan_DAILY"
+	<appender name="SAAS_DAILY"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<Append>true</Append>
 		<encoder>
@@ -76,8 +76,8 @@
 		<appender-ref ref="DAILY" />
 		<appender-ref ref="STDOUT" />
 	</logger>
-	<logger name="com.yuanhan.yuanhan" level="DEBUG">
-		<appender-ref ref="yuanhan_DAILY" />
+	<logger name="com.zhjs.saas" level="DEBUG">
+		<appender-ref ref="SAAS_DAILY" />
 	</logger>
 	
 	<root level="DEBUG">

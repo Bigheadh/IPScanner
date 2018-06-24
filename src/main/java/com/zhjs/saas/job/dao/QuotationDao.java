@@ -1,8 +1,8 @@
-package com.yuanhan.job.dao;
+package com.zhjs.saas.job.dao;
 
-import com.yuanhan.yuanhan.core.annotation.DaoComponent;
-import com.yuanhan.yuanhan.core.dao.CommonRepository;
-import com.yuanhan.job.entity.Quotation;
+import com.zhjs.saas.core.annotation.DaoComponent;
+import com.zhjs.saas.core.dao.CommonRepository;
+import com.zhjs.saas.job.entity.Quotation;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;

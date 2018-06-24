@@ -1,10 +1,10 @@
-package com.yuanhan.job.task;
+package com.zhjs.saas.job.task;
 
 import com.dangdang.ddframe.job.api.ShardingContext;
-import com.yuanhan.yuanhan.core.exception.BaseException;
-import com.yuanhan.job.service.InquiryService;
-import com.yuanhan.yuanhan.scheduler.annotation.JobTask;
-import com.yuanhan.yuanhan.scheduler.job.AbstractJob;
+import com.zhjs.saas.core.exception.BaseException;
+import com.zhjs.saas.job.service.InquiryService;
+import com.zhjs.saas.scheduler.annotation.JobTask;
+import com.zhjs.saas.scheduler.job.AbstractJob;
 /**
  * @Author: Yuan Han
  * @Description:

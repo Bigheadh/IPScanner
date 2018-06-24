@@ -1,8 +1,8 @@
-package com.yuanhan.job.service;
+package com.zhjs.saas.job.service;
 
 /**
  * 
- * @author:		yuanhan
+ * @author:		Jackie Wang 
  * @since:		2018-06-14
  * @modified:	2018-06-14
  * @version:	

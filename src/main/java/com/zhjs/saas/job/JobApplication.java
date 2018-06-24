@@ -1,11 +1,11 @@
-package com.yuanhan.job;
+package com.zhjs.saas.job;
 
-import com.yuanhan.yuanhan.core.BootApplication;
-import com.yuanhan.yuanhan.core.annotation.AutoBootApplication;
+import com.zhjs.saas.core.BootApplication;
+import com.zhjs.saas.core.annotation.AutoBootApplication;
 
 /**
  * 
- * @author:		yuanhan
+ * @author:		Jackie Wang 
  * @since:		2018-06-11
  * @modified:	2018-06-11
  * @version:	

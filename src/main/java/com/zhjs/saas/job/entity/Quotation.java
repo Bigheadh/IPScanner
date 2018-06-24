@@ -1,6 +1,6 @@
-package com.yuanhan.job.entity;
+package com.zhjs.saas.job.entity;
 
-import com.yuanhan.yuanhan.core.pojo.BaseObject;
+import com.zhjs.saas.core.pojo.BaseObject;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -15,8 +15,8 @@ public class Quotation extends BaseObject {
     private static final long serialVersionUID = -1634970733870595172L;
 
     @Id
-    @GeneratedValue(generator= com.yuanhan.yuanhan.core.dao.generator.GenerationType.SnowFlake)
-    @GenericGenerator(name= com.yuanhan.yuanhan.core.dao.generator.GenerationType.SnowFlake, strategy="com.yuanhan.yuanhan.core.dao.generator.IdGenerator")
+    @GeneratedValue(generator= com.zhjs.saas.core.dao.generator.GenerationType.SnowFlake)
+    @GenericGenerator(name= com.zhjs.saas.core.dao.generator.GenerationType.SnowFlake, strategy="com.zhjs.saas.core.dao.generator.IdGenerator")
     private Long quotationId;
 
     private Integer paymentWay;

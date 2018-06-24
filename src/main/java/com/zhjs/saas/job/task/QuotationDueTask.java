@@ -1,20 +1,20 @@
-package com.yuanhan.job.task;
+package com.zhjs.saas.job.task;
 
 import com.dangdang.ddframe.job.api.ShardingContext;
-import com.yuanhan.yuanhan.core.exception.BaseException;
-import com.yuanhan.job.service.InquiryService;
-import com.yuanhan.yuanhan.scheduler.annotation.JobTask;
-import com.yuanhan.yuanhan.scheduler.job.AbstractJob;
+import com.zhjs.saas.core.exception.BaseException;
+import com.zhjs.saas.job.service.InquiryService;
+import com.zhjs.saas.scheduler.annotation.JobTask;
+import com.zhjs.saas.scheduler.job.AbstractJob;
 
 /**
  * 
- * @author:		yuanhan
+ * @author:		Jackie Wang 
  * @since:		2018-06-14
  * @modified:	2018-06-14
  * @version:	
  */
-@JobTask(name="SelectionDueTask", cron="0 0/1 * * * ? ")
-public class SelectionDueTask extends AbstractJob
+@JobTask(name="QuotationDueTask", cron="0 0/1 * * * ? ")
+public class QuotationDueTask extends AbstractJob
 {
 	
 	private InquiryService inquiryService;
@@ -28,7 +28,8 @@ public class SelectionDueTask extends AbstractJob
 		logger.info("------Thread ID: {}, {}任务总片数: {}, 当前分片项: {}",
 	            Thread.currentThread().getId(), jobName, shardingCount, shardingItem);
 		
-		inquiryService.stopSelection();
+		inquiryService.stopQuotation();
+		inquiryService.overQuotation();
 		return null;
 	}
 

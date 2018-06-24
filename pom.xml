@@ -2,14 +2,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.yuanhan</groupId>
-	<artifactId>yuanhan-job</artifactId>
+	<groupId>com.zhjs</groupId>
+	<artifactId>saas-job</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 
 	<parent>
-		<groupId>com.yuanhan</groupId>
-		<artifactId>yuanhan-parent</artifactId>
+		<groupId>com.zhjs</groupId>
+		<artifactId>saas-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
@@ -21,12 +21,12 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>com.yuanhan</groupId>
-			<artifactId>yuanhan-scheduler</artifactId>
+			<groupId>com.zhjs</groupId>
+			<artifactId>saas-scheduler</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.yuanhan</groupId>
-			<artifactId>yuanhan-security</artifactId>
+			<groupId>com.zhjs</groupId>
+			<artifactId>saas-security</artifactId>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -47,7 +47,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.yuanhan.job.JobApplication</mainClass>
+							<mainClass>com.zhjs.saas.job.JobApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

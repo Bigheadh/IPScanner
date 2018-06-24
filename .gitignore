@@ -27,4 +27,4 @@
 *.temp
 *.*~
 ~*.*
-src/main/api/com/yuanhan/yuanhan/bidding/api/entity/InquirySheet.java
+src/main/api/com/zhjs/saas/bidding/api/entity/InquirySheet.java

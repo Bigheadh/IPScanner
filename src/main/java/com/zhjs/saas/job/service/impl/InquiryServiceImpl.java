@@ -1,18 +1,18 @@
-package com.yuanhan.job.service.impl;
+package com.zhjs.saas.job.service.impl;
 
-import com.yuanhan.job.constants.InquiryStatus;
-import com.yuanhan.job.constants.User;
-import com.yuanhan.job.dao.BiddingDao;
-import com.yuanhan.job.dao.InquiryDao;
-import com.yuanhan.job.dao.QuotationDao;
-import com.yuanhan.job.entity.Inquiry;
-import com.yuanhan.job.entity.Quotation;
-import com.yuanhan.job.service.InquiryService;
-import com.yuanhan.yuanhan.core.annotation.ServiceComponent;
-import com.yuanhan.yuanhan.core.service.AbstractService;
-import com.yuanhan.yuanhan.core.util.CollectionUtil;
-import com.yuanhan.yuanhan.core.util.MessageUtil;
-import com.yuanhan.job.constants.QuotationStatus;
+import com.zhjs.saas.core.annotation.ServiceComponent;
+import com.zhjs.saas.core.service.AbstractService;
+import com.zhjs.saas.core.util.CollectionUtil;
+import com.zhjs.saas.core.util.MessageUtil;
+import com.zhjs.saas.job.constants.InquiryStatus;
+import com.zhjs.saas.job.constants.QuotationStatus;
+import com.zhjs.saas.job.constants.User;
+import com.zhjs.saas.job.dao.BiddingDao;
+import com.zhjs.saas.job.dao.InquiryDao;
+import com.zhjs.saas.job.dao.QuotationDao;
+import com.zhjs.saas.job.entity.Inquiry;
+import com.zhjs.saas.job.entity.Quotation;
+import com.zhjs.saas.job.service.InquiryService;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
@@ -21,7 +21,7 @@ import java.util.Map;
 
 /**
  * 
- * @author:		yuanhan
+ * @author:		Jackie Wang 
  * @since:		2018-06-14
  * @modified:	2018-06-14
  * @version:	

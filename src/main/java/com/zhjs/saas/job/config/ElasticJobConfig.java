@@ -1,21 +1,23 @@
-package com.yuanhan.job.config;
+package com.zhjs.saas.job.config;
+
+import javax.annotation.Resource;
+import javax.sql.DataSource;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import com.dangdang.ddframe.job.event.JobEventConfiguration;
 import com.dangdang.ddframe.job.event.rdb.JobEventRdbConfiguration;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperConfiguration;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter;
+
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
-import javax.annotation.Resource;
-import javax.sql.DataSource;
 
 /**
  * 
- * @author:		yuanhan
+ * @author:		Jackie Wang 
  * @since:		2018-06-12
  * @modified:	2018-06-12
  * @version:	
@@ -23,7 +25,7 @@ import javax.sql.DataSource;
 @Setter
 @Getter
 @Configuration
-@ConfigurationProperties(prefix="yuanhan.scheduler.elastic-job")
+@ConfigurationProperties(prefix="saas.scheduler.elastic-job")
 public class ElasticJobConfig
 {	 
     private String zkNodes;
