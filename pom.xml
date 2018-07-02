@@ -34,6 +34,19 @@
 			<artifactId>zookeeper</artifactId>
 			<version>${zookeeper.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>us.codecraft</groupId>
+			<artifactId>webmagic-core</artifactId>
+			<version>0.7.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>us.codecraft</groupId>
+			<artifactId>webmagic-extension</artifactId>
+			<version>0.7.0</version>
+		</dependency>
+
 	</dependencies>
 
 
